@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Outfit:wght@100..900&display=swap');
+@import "tailwindcss";
+
+*{
+  font-family: "Outfit", sans-serif;
+}
+
+.great-vibes {
+  font-family: "Great Vibes", cursive;
+}
+
+@theme{
+  --color-primary:#336DD5
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* Dark mode */
+
+.dark-mode {
+  background-color: #111827;
+  color: white;
+  min-height: 100vh;
+}
+
+.dark-mode .bg-white {
+  background-color: #111827 !important;
+}
+
+.dark-mode .text-black {
+  color: white !important;
+}
+
+.dark-mode .text-gray-500 {
+  color: #9ca3af !important;
+}
+
+.dark-mode .text-gray-600 {
+  color: #d1d5db !important;
+}
+
+.dark-mode .navbar {
+  background-color: #111827 !important;
+}
+
+.dark-mode .logo {
+  color: white !important;
+}
+
+.dark-mode .nav-text {
+  color: white !important;
+}
+
+.dark-mode input,
+.dark-mode textarea {
+  background-color: #1f2937 !important;
+  color: white !important;
+  border-color: #374151 !important;
+}
+
+.dark-mode input::placeholder,
+.dark-mode textarea::placeholder {
+  color: #9ca3af;
+}
+
+.dark-mode .bg-gray-50 {
+  background-color: #1f2937 !important;
+}
+
+.dark-mode .border-gray-100,
+.dark-mode .border-gray-200 {
+  border-color: #374151 !important;
+}
+
+.dark-mode .shadow-sm,
+.dark-mode .shadow-lg,
+.dark-mode .shadow-xl {
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+}
+
+.dark-mode footer {
+  background-color: #0b1220 !important;
+}
